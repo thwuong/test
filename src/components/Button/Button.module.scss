@@ -1,0 +1,70 @@
+.primary {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    background-color: #121212;
+    color: #DCECD8;
+    width: 10px;
+    height: 10px;
+    z-index: -1;
+    border-radius: 100%;
+    transform: scale(1);
+    transition: all ease 1000ms;
+  }
+
+  &:hover::before {
+    transform: scale(50);
+    transition: all ease 1000ms;
+    z-index: -1;
+  }
+}
+
+.shapeBtn {
+  .showWhenHover {
+    display: none;
+  }
+
+  &:hover * {
+    color: #365C24;
+    stroke: #365C24;
+  }
+
+  &:hover {
+    .hiddenWhenHover {
+      display: none;
+    }
+
+    .showWhenHover {
+      display: block;
+    }
+  }
+}
+
+.clearStyle {
+  .shapeBtn {
+    .showWhenHover {
+      display: none;
+    }
+
+    &:hover * {
+      color: white;
+      // stroke: #365C24;
+    }
+
+    &:hover {
+      .hiddenWhenHover {
+        display: none;
+      }
+
+      .showWhenHover {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.description {
+  color: rgb(18, 18, 18, 0.64);
+  font-size: 16px;
+  line-height: 1.8rem;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+    line-height: 1.4rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair_display);
+    color: rgb(18, 18, 18);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.875rem;
+    margin: 16px 0 4px 0;
+
+    @media screen and (max-width: 1024px) {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+
+.details {
+
+  @media screen and (max-width: 1024px) {
+    table {
+      table-layout: fixed !important;
+
+      // max-width: none;
+      // width: 400px !important;
+      // min-width: 100%;
+      colgroup>col {
+        width: 30% !important;
+
+        &+col {
+          width: 70% !important;
+        }
+      }
+
+      tr>td {
+        padding-right: 5px;
+      }
+    }
+  }
+}

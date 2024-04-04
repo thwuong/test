@@ -1,0 +1,13 @@
+<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Submit">
+<rect id="Rectangle" y="0.216797" width="50" height="50" fill="#365C24"/>
+<g id="east">
+<mask id="mask0_646_10785" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="13" width="25" height="25">
+<rect id="Bounding box" x="12.7886" y="13.4785" width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_646_10785)">
+<path id="east_2" d="M27.4616 31.8056L26.7482 31.1171L31.9059 25.9595H15.7886V24.9595H31.9251L26.7732 19.8018L27.4616 19.1133L33.8078 25.4595L27.4616 31.8056Z" fill="#A6C168"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+.gallery nav.image-gallery-thumbnails-container {
+  display: flex !important;
+  // justify-content: space-between !important;
+  column-gap: 1.5625rem;
+
+  .image-gallery-thumbnail,
+  :hover,
+  & .active {
+    border: none;
+  }
+
+  .image-gallery-thumbnail {
+    margin-top: 1.5rem;
+
+    &:hover {
+      filter: brightness(75%);
+      -webkit-filter: brightness(75%);
+      transition: all ease-in-out 300ms;
+    }
+
+    // &.active {
+    //   outline: 3px solid #809D79;
+    // }
+  }
+}
